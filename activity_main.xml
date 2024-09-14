@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira o texto" />
+
+    <Button
+        android:id="@+id/encodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codificar para Base64" />
+
+    <Button
+        android:id="@+id/decodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decodificar de Base64" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Resultado será mostrado aqui" />
+
+</LinearLayout>
